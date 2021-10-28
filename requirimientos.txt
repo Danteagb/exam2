@@ -10,7 +10,6 @@ parso==0.8.2
 pickleshare==0.7.5
 postgres==4.0
 prompt-toolkit==3.0.20
-psycopg2==2.8.6
 psycopg2-binary==2.9.1
 psycopg2-pool==1.1
 pycparser==2.20
