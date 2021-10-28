@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Job</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'css/views.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+    <div id="top">
+        <h2>{{this_job.title}}</h2>
+        <div id="logoff">
+            <a href="{% url 'dashboard' %}">Back</a>
+            <a href="{% url 'logout' %}">Log Out</a>
+        </div>
+    </div>
+    <div id="content">
+        <span> Description:</span> {{this_job.description}}
+        <br>
+        <span>Location:</span> {{this_job.location}}
+        <br>
+        <span>Posted by:</span> {{this_job.creator.first_name}} {{this_job.creator.last_name}}
+        <br>
+        <span>Posted On:</span> {{this_job.created_at}}
+    </div>
+    <a href="#" id="add" class="btn btn-primary">Add to my Jobs!</a>
+    
+</body>
+</html>

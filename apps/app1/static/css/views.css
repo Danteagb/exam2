@@ -1,0 +1,35 @@
+#top{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 1rem 2rem 0.5rem 2rem;
+}
+#top a{
+    padding-left: 2rem;
+}
+#logoff{
+    display: flex;
+    margin-left: auto;
+}
+
+#logoff a{
+    font-size: larger;
+    margin-left: 1rem;
+}
+
+#content{
+    margin:4rem 0 0 30%;
+    font-size: x-large;
+    font-weight: bold;
+    border: 2px solid rgb(22, 127, 175);
+    width: fit-content;
+    padding: 10px;
+    
+}
+span{
+    color: red;
+}
+#add{
+    margin-left: 30%;
+    margin-top: 2rem;
+    font-size: x-large;
+}

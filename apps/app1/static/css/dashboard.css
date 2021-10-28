@@ -1,0 +1,43 @@
+#top{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 1rem 2rem 0.5rem 2rem;
+}
+#logoff{
+    display: flex;
+    margin-left: auto;
+}
+#welcome{
+    display: flex;
+}
+#welcome a{
+    margin-left: 2rem;
+}
+#logoff a{
+    font-size: larger;
+    margin-left: 3rem;
+}
+
+/* ********* TABLE ************* */
+table td{
+    border: 2.5px solid black;
+    padding: 0.5em;
+    text-align: center;
+    margin-left: 30%;
+    
+}
+thead td{
+    padding: 0.05rem;
+    background-color: rgb(153, 148, 148);
+    font-weight: bold;
+}
+table{
+    display: flex;
+    margin-left: 4rem;
+}
+#tables{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-top: 2rem;
+}
